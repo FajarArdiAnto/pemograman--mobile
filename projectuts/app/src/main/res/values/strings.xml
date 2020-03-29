@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">project uts</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dekripsi">
+        Lokasi Goa Selarong
+Goa Selarong berada di Kabupaten Bantul, tepatnya di Dusun Kembangputihan, Pajangan, Bantul, Jogja. Untuk menuju Goa Selarong wisata Jogja ini teman- teman bisa menggunakan kendaraan pribadi/ carteran karena tidak ada angkutan umum yang melintasi obyek wisata sejarah ini. Namun demikian, jangan khawatir, karena jalan menuju ke tempat wisata di Jogja ini berupa jalan aspal yang mulus.
+
+Untuk mengunjungi gua yang juga dikenal dengan nama Goa Diponegoro ini, teman- teman dapat melalui beberapa rute. Namun yang lebih mudah adalah melalui rute Masjid Agung Bantul ke arah barat, kemudian menuju ke jalan Selarong.
+    </string>
+</resources>

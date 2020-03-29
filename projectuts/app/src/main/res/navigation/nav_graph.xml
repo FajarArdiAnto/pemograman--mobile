@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/utama">
+
+    <fragment
+        android:id="@+id/utama"
+        android:name="android.com.fajar.ardi.anto.projectuts.utama"
+        android:label="fragment_utama"
+        tools:layout="@layout/fragment_utama" >
+        <action
+            android:id="@+id/action_utama_to_masuk"
+            app:destination="@id/masuk" />
+    </fragment>
+    <fragment
+        android:id="@+id/masuk"
+        android:name="android.com.fajar.ardi.anto.projectuts.masuk"
+        android:label="fragment_masuk"
+        tools:layout="@layout/fragment_masuk" >
+        <action
+            android:id="@+id/action_masuk_to_hasil"
+            app:destination="@id/hasil" />
+    </fragment>
+    <fragment
+        android:id="@+id/hasil"
+        android:name="android.com.fajar.ardi.anto.projectuts.hasil"
+        android:label="fragment_hasil"
+        tools:layout="@layout/fragment_hasil" />
+</navigation>
